@@ -1,0 +1,10 @@
+language: ruby
+script: 'rake db:create'
+rvm:
+  - 1.9.3
+env:
+notifications:
+  email: false
+branches:
+  only:
+    - master
